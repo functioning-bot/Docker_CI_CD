@@ -1,8 +1,8 @@
-# 🐳 Dockerized CI/CD Pipeline with GitHub Actions
+# Dockerized CI/CD Pipeline with GitHub Actions
 
 A complete DevOps project demonstrating containerization of a Flask web application with automated CI/CD pipeline using GitHub Actions, Docker, and comprehensive testing.
 
-## 🚀 Features
+## Features
 
 - **Flask Web Application**: Simple Python web app with multiple endpoints
 - **Docker Containerization**: Production-ready Dockerfile with security best practices
@@ -13,7 +13,7 @@ A complete DevOps project demonstrating containerization of a Flask web applicat
 - **Monitoring**: Prometheus and Grafana integration
 - **Load Balancing**: Nginx reverse proxy configuration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Docker_CI_CD/
@@ -37,7 +37,7 @@ Docker_CI_CD/
 └── README.md                # This file
 ```
 
-## 🛠️ Local Development Setup
+## Local Development Setup
 
 ### Prerequisites
 
@@ -136,7 +136,7 @@ docker-compose down
 docker-compose down -v
 ```
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 The GitHub Actions workflow (`.github/workflows/ci-cd.yml`) provides a complete CI/CD pipeline:
 
@@ -188,7 +188,7 @@ git push origin feature/new-feature
 # Create PR via GitHub UI
 ```
 
-## 📊 Monitoring and Observability
+## Monitoring and Observability
 
 ### Available Services
 
@@ -252,7 +252,7 @@ pip install locust
 locust -f locustfile.py --host=http://localhost:5000
 ```
 
-## 🔒 Security Features
+## Security Features
 
 ### Application Security
 
@@ -270,7 +270,7 @@ locust -f locustfile.py --host=http://localhost:5000
 - Multi-platform builds
 - Secure secret management
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### Local Development
 
@@ -299,7 +299,7 @@ The application is ready for deployment to:
 - **Kubernetes clusters**
 - **DigitalOcean App Platform**
 
-## 📝 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -329,7 +329,7 @@ DOCKER_PASSWORD=your-password
 4. **Update pipeline**: Modify `.github/workflows/ci-cd.yml`
 5. **Add services**: Update `docker-compose.yml`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -338,11 +338,11 @@ DOCKER_PASSWORD=your-password
 5. Ensure CI/CD passes
 6. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -359,5 +359,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Check Docker container status: `docker ps -a`
 
 ---
-
-**Built with ❤️ for DevOps learning and demonstration**
